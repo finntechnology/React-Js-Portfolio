@@ -7,7 +7,6 @@ const PUBLIC_KEY = process.env.REACT_APP_EMAIL_JS_PUBLIC_KEY;
 
 export default function ContactMe() {
   const form = useRef();
-
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -20,7 +19,7 @@ export default function ContactMe() {
           console.log(response);
         },
         (error) => {
-          console.log("FAILED...", error);
+          console.log(error);
         }
       );
   };
