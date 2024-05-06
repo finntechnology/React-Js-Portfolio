@@ -173,8 +173,7 @@ h2 {
 }
 @media screen and (max-width: 1000px) {
   .navbar {
-    /* background: var(--white); */
-    backdrop-filter: blur(30px);
+    background: var(--white);
   }
 }
 .loge--style {
