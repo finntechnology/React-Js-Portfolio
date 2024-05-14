@@ -601,7 +601,7 @@ h2 {
   z-index: 10000;
   display: grid;
   place-items: center;
-  background-color: whitesmoke;
+  background-color: #00000090;
 }
 
 .flex {
@@ -623,7 +623,7 @@ h2 {
 
 .succes-svg {
   color: #5e3bee;
-  width: 5.25rem;
+  width: 8.25rem;
   height: 5.25rem;
 }
 
@@ -1015,5 +1015,14 @@ input[type="checkbox"] {
     opacity: 1;
     -webkit-transform: none;
     transform: none;
+  }
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
